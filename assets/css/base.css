@@ -1,0 +1,141 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --primary-color:#ee4d2d;
+    --border-color:#dbdbdb;
+    --text-color:#333;
+    --height-header:120px;
+    --height-navbar:36px;
+    --height-heder-with-search: calc( var(--height-header) - var(--height-navbar))
+}
+
+*{
+    box-sizing: inherit;
+
+}
+
+html{
+    font-size: 62.5%;
+    line-height:1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width:1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width:100%;
+}
+
+.grid__row{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:16.66667%
+}
+
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.33333%;
+}
+
+@keyframes FadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+    opacity: 1;
+}
+}
+
+@keyframes Growth {
+    form{
+        transform: scale(var(--grow-from));
+    }
+    to{
+        transform: scale(var(--grow-to));
+    }
+}
+
+/* modal */
+.modal{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    display:flex;
+    animation: FadeIn linear 0.2s;
+    
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.modal__body{
+    width:500px;
+    position: relative;
+    margin: auto;
+    --grow-from:0;
+    --grow-to:1;
+    animation: Growth linear 0.2s;
+}
+
+.btn{
+    width:124px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #fffbfb;
+    border:none;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    color:var(--text-color);
+    padding: 0 8px;
+}
+
+.btn.btn--normal:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.btn.btn--primary{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+
+.btn.btn--disable{
+    background-color:#999;
+    color:#ccc;
+    cursor: default;
+}
+
+.btn.btn-size--s{
+    height:32px;
+    font-size: 12px;
+    padding:0 8px;
+
+}
+
+
+
