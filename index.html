@@ -261,7 +261,7 @@
 
         <div class="main-container">
             <div class="grid">
-                <div class="grid__row">
+                <div class="grid__row main-content">
                     <div class="grid__column-2">
                         <nav class="category">
                             <h3 class="category__heading">
@@ -280,7 +280,238 @@
                         </nav>
                     </div>
                     <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home__filter-labrl">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn btn--primary ">Phổ biến</button>
+                            <button class="home-filter__btn btn ">mới nhất</button>
+                            <button class="home-filter__btn btn ">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fa-solid fa-chevron-down select-input__icon"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                      <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num--current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-btn-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-btn-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <div class="home__product-item__img" style="background-image: url(./assets/img/sanphamaoveest.jpg);"></div>
+                                        <h4 class="home__product-item__name">Áo Vest nam Mẫu 004 - Đồng Phục Thiên Nguyên sang trọng tạo đẳng cấp quý ông</h4>
+                                        <div class="home__product-item-suggest"><a href="">Mua hai sản phẩm giá 1.850.000đ</a></div>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price--old">1.200.000đ</span>
+                                            <span class="home__product-item__price--current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <!-- thêm class home__product-item-like--liked thì tym sẽ hiện-->
+                                            <span class="home__product-item-like ">
+                                                <i class="home__product-item-like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home__product-item-like-icon-fill fa-solid fa-heart"></i> 
+                                            </span>
+                                            <div class="home__product-item-start">
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Viên Nguyên</span>
+                                            <span class="home__product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <div class="home__product-item__img" style="background-image: url(./assets/img/sanphamaoveest.jpg);"></div>
+                                        <h4 class="home__product-item__name">Áo Vest nam Mẫu 004 - Đồng Phục Thiên Nguyên sang trọng tạo đẳng cấp quý ông</h4>
+                                        <div class="home__product-item-suggest"><a href="">Mua hai sản phẩm giá 1.850.000đ</a></div>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price--old">1.200.000đ</span>
+                                            <span class="home__product-item__price--current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <!-- thêm class home__product-item-like--liked thì tym sẽ hiện-->
+                                            <span class="home__product-item-like ">
+                                                <i class="home__product-item-like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home__product-item-like-icon-fill fa-solid fa-heart"></i> 
+                                            </span>
+                                            <div class="home__product-item-start">
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Viên Nguyên</span>
+                                            <span class="home__product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <div class="home__product-item__img" style="background-image: url(./assets/img/sanphamaoveest.jpg);"></div>
+                                        <h4 class="home__product-item__name">Áo Vest nam Mẫu 004 - Đồng Phục Thiên Nguyên sang trọng tạo đẳng cấp quý ông</h4>
+                                        <div class="home__product-item-suggest"><a href="">Mua hai sản phẩm giá 1.850.000đ</a></div>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price--old">1.200.000đ</span>
+                                            <span class="home__product-item__price--current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <!-- thêm class home__product-item-like--liked thì tym sẽ hiện-->
+                                            <span class="home__product-item-like ">
+                                                <i class="home__product-item-like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home__product-item-like-icon-fill fa-solid fa-heart"></i> 
+                                            </span>
+                                            <div class="home__product-item-start">
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Viên Nguyên</span>
+                                            <span class="home__product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <div class="home__product-item__img" style="background-image: url(./assets/img/sanphamaoveest.jpg);"></div>
+                                        <h4 class="home__product-item__name">Áo Vest nam Mẫu 004 - Đồng Phục Thiên Nguyên sang trọng tạo đẳng cấp quý ông</h4>
+                                        <div class="home__product-item-suggest"><a href="">Mua hai sản phẩm giá 1.850.000đ</a></div>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price--old">1.200.000đ</span>
+                                            <span class="home__product-item__price--current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <!-- thêm class home__product-item-like--liked thì tym sẽ hiện-->
+                                            <span class="home__product-item-like ">
+                                                <i class="home__product-item-like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home__product-item-like-icon-fill fa-solid fa-heart"></i> 
+                                            </span>
+                                            <div class="home__product-item-start">
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Viên Nguyên</span>
+                                            <span class="home__product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <div class="home__product-item__img" style="background-image: url(./assets/img/sanphamaoveest.jpg);"></div>
+                                        <h4 class="home__product-item__name">Áo Vest nam Mẫu 004 - Đồng Phục Thiên Nguyên sang trọng tạo đẳng cấp quý ông</h4>
+                                        <div class="home__product-item-suggest"><a href="">Mua hai sản phẩm giá 1.850.000đ</a></div>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price--old">1.200.000đ</span>
+                                            <span class="home__product-item__price--current">999.000đ</span>
+                                        </div>
+                                        <div class="home__product-item__action">
+                                            <!-- thêm class home__product-item-like--liked thì tym sẽ hiện-->
+                                            <span class="home__product-item-like ">
+                                                <i class="home__product-item-like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home__product-item-like-icon-fill fa-solid fa-heart"></i> 
+                                            </span>
+                                            <div class="home__product-item-start">
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="home__product-item-start--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item-sold">88 đã bán</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Viên Nguyên</span>
+                                            <span class="home__product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home__product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>                
+                                         
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
