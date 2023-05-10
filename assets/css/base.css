@@ -212,7 +212,9 @@ html{
     color:var(--primary-color);
 }
 
-
+.clear{
+    clear:both;
+}
 
 
 /*  */
