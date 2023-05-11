@@ -28,6 +28,13 @@ html{
     margin: 0 auto;
 }
 
+.grid__bottom{
+    width:100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
 .grid__full-width{
     width:100%;
 }
@@ -216,6 +223,69 @@ html{
     clear:both;
 }
 
+/* pagination */
+.pagination{
+    display:flex;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
 
-/*  */
+}
+
+.pagination-item{
+    margin: 0 15px;
+}
+
+.pagination-item--current{
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.pagination-item--current a{
+    color:var(--white-color);
+}
+
+.pagination-item--current i{
+    color:var(--white-color);
+}
+
+.pagination-item__link{
+    --height:30px;
+    text-decoration: none;
+    color:var(--text-color);
+    font-size: 2rem;
+    color:#9F9F9F;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height: var(--height);
+    min-width: 40px;
+    height: var(--height);
+
+}
+
+.pagination-item-icon{
+    font-size: 1.6rem;
+    color:#9F9F9F;
+    font-weight: 200;
+}
+
+.footer__infor{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer__text-name-company{
+    margin: 20px 0 30px;
+}
+
+
+
+
+
+
+
+
+
 
